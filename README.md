@@ -66,12 +66,6 @@ Most features in the dataset are categorical, including:
 - `MonthlyCharges`: Monthly billing amount
 - `TotalCharges`: Total billing amount over the customer's lifetime
 
-## Project Structure
-
-```
-
-```
-
 ## Analysis Workflow
 
 The Jupyter notebook (`Telecom_Churn.ipynb`) includes the following analysis steps:
@@ -112,4 +106,5 @@ pip install pandas numpy matplotlib seaborn
 2. Ensure the CSV file is in the correct path
 3. Open `Telecom_Churn.ipynb` in Jupyter Notebook or VS Code
 4. Run the cells sequentially to perform the analysis
+
 
