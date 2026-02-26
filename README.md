@@ -1,4 +1,8 @@
-# Telco Customer Churn Analysis
+# Customer Churn Prediction in Telecom Industry
+
+**Team:** 24ADI004 — DSV Team 11 | **Course:** Data Science & Visualization — Semester 4
+
+---
 
 ## Project Overview
 
@@ -80,6 +84,31 @@ The Jupyter notebook (`Telecom_Churn.ipynb`) includes the following analysis ste
    - Check for duplicate records
    - Analyze unique values in each column
 
+## Weekly Progress
+
+**Week 2 — Data Loading**
+- Loaded and explored the dataset
+- Checked nulls, data types, and descriptive stats
+- Converted `TotalCharges` to numeric
+
+**Week 3 — Data Cleaning**
+- Filled missing values: numerical → median, categorical → mode
+- Outlier detection using boxplots and Z-score (no outliers found)
+
+**Week 4 — EDA**
+- Churn distribution pie chart (~26% churn rate)
+- Demographic and service usage vs churn plots
+- Correlation heatmap for numerical features
+
+---
+
+## Key Findings
+
+- ~26% of customers have churned
+- Shorter tenure and higher monthly charges → higher churn
+- Gender has minimal impact on churn
+- Customers without a partner churn more
+
 
 ## Getting Started
 
@@ -106,5 +135,6 @@ pip install pandas numpy matplotlib seaborn
 2. Ensure the CSV file is in the correct path
 3. Open `Telecom_Churn.ipynb` in Jupyter Notebook or VS Code
 4. Run the cells sequentially to perform the analysis
+
 
 
